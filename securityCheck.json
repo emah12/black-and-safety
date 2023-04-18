@@ -1,0 +1,86 @@
+{
+    "report_meta": {
+        "scan_target": "files",
+        "scanned": [
+            "./directory/requirements.txt"
+        ],
+        "policy_file": null,
+        "policy_file_source": "local",
+        "api_key": true,
+        "local_database_path": null,
+        "safety_version": "2.3.5",
+        "timestamp": "2023-04-18 05:12:59",
+        "packages_found": 8,
+        "vulnerabilities_found": 0,
+        "vulnerabilities_ignored": 0,
+        "remediations_recommended": 0,
+        "telemetry": {
+            "os_type": "Linux",
+            "os_release": "5.15.89+",
+            "os_description": "Linux-5.15.89+-x86_64-with-glibc2.31",
+            "python_version": "3.9.2",
+            "safety_command": "check",
+            "safety_options": {
+                "files": {
+                    "-r": 1
+                },
+                "key": {
+                    "--key": 1
+                },
+                "output": {
+                    "--output": 1
+                }
+            },
+            "safety_version": "2.3.5",
+            "safety_source": "cli"
+        },
+        "git": {
+            "branch": "master",
+            "tag": "",
+            "commit": "",
+            "dirty": false,
+            "origin": "https://github.com/emah12/black-and-safety.git"
+        },
+        "project": null,
+        "json_version": 1
+    },
+    "scanned_packages": {
+        "uvicorn": {
+            "name": "uvicorn",
+            "version": "0.21.1"
+        },
+        "cryptography": {
+            "name": "cryptography",
+            "version": "40.0.1"
+        },
+        "jinja2": {
+            "name": "jinja2",
+            "version": "3.1.2"
+        },
+        "google-cloud-vision": {
+            "name": "google-cloud-vision",
+            "version": "3.4.1"
+        },
+        "pymysql": {
+            "name": "pymysql",
+            "version": "1.03"
+        },
+        "sqlalchemy": {
+            "name": "sqlalchemy",
+            "version": "2.07"
+        },
+        "boto3": {
+            "name": "boto3",
+            "version": "1.26.103"
+        },
+        "azure-cognitiveservices-vision-contentmoderator": {
+            "name": "azure-cognitiveservices-vision-contentmoderator",
+            "version": "0.9.0"
+        }
+    },
+    "affected_packages": {},
+    "announcements": [],
+    "vulnerabilities": [],
+    "ignored_vulnerabilities": [],
+    "remediations": {}
+}

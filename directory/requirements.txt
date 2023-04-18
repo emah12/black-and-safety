@@ -1,0 +1,8 @@
+uvicorn==0.21.1
+cryptography==40.0.1
+jinja2==3.1.2
+google-cloud-vision==3.4.1
+pymysql==1.03
+sqlalchemy==2.07
+boto3==1.26.103
+azure-cognitiveservices-vision-contentmoderator==0.9.0
